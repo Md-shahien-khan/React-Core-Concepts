@@ -1,5 +1,8 @@
 import './App.css'
+import UseEffect from './components/UseEffect';
+import Users from './components/Users';
 import UseState from './components/UseState';
+import Posts from './components/Posts';
 
 function App() {
   function handleClick(){
@@ -24,6 +27,9 @@ function App() {
       <button  className='btn bg-green-400 w-4/12 mx-auto'onClick={()=> addToFive(5)}>Button 4</button>
       <button></button>
       <UseState></UseState>
+      <UseEffect></UseEffect>
+      <Users></Users>
+      <Posts></Posts>
     </div>
   )
 }
